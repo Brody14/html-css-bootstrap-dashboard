@@ -1,0 +1,47 @@
+:root {
+    --header-height: 70px;
+    --sidebar-width: 70px;
+    --sidebar-lg: 150px;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+#main-header {
+    height: var(--header-height);
+    border: 1px solid black;
+}
+
+/* MAIN */
+
+#main-content {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.main-sidebar {
+    width: var(--sidebar-width);
+    background-color: black;
+    overflow: hidden;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+/* RESPONSIVE */
+
+@media all and (min-width: 768px) {
+
+    .main-sidebar {
+        width: var(--sidebar-lg);
+    }
+    
+
+}
