@@ -22,6 +22,18 @@ body {
     background-color: var(--header-bg);
 }
 
+.wrapper {
+    flex-wrap: nowrap !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+#main-header .navbar .navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: none;
+}
+
 /* MAIN */
 
 #main-content {
