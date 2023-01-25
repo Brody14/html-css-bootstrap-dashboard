@@ -3,7 +3,7 @@
     --header-bg: #f8f9fa;
     --sidebar-width: 70px;
     --sidebar-lg: 150px;
-    --light-green: #8acf6b;
+    --light-green: #8cd06d;
     --dark-green: #00ae51;
     --search-color: #e5e5e5;
     --content-bg: #f8f9fa;
@@ -86,6 +86,7 @@ body {
     height: calc 100vh - var(--header-height);
     background-color: var(--dark-green);
     background-image: url(../img/sidebar-bg.png);
+
 }
 
 .sidebar-nav {
@@ -96,6 +97,12 @@ body {
 .main-sidebar .nav-item {
     padding: 10px;
 }
+
+.main-sidebar .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+   
+}
+
 
 .br__nav-link {
     align-items: center;
@@ -144,7 +151,6 @@ body {
 
 .add-button {
     margin-left: 10px;
-    --bs-btn-hover-bg: #8acf6b;
 }
 
 .overwiev-title {
