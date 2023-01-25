@@ -187,8 +187,10 @@ body {
     width: 34px;
 }
 
-.name-col {
-    width: 55%;
+@media all and (min-width:768px) {
+    .name-col {
+        width: 55%;
+    }
 }
 
 .content-body .badge,
