@@ -152,3 +152,14 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* OFFCANVAS */
+
+.offcanvas {
+
+    --bs-offcanvas-width: 800px;
+}
+
+.offcanvas-body {
+    --bs-offcanvas-padding-y: 0.5rem;
+}
