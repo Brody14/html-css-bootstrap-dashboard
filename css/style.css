@@ -169,9 +169,7 @@ body {
 /* OFFCANVAS */
 
 .offcanvas {
-
     --bs-offcanvas-width: 800px;
-    
 }
 
 .offcanvas-body {
