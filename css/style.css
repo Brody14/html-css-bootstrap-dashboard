@@ -6,6 +6,7 @@
     --light-green: #8acf6b;
     --dark-green: #00ae51;
     --search-color: #e5e5e5;
+    --content-bg: #f8f9fa;
 
 }
 
@@ -123,6 +124,7 @@ body {
 .content {
     flex-grow: 1;
     overflow-y: auto;
+    background-color: var(--content-bg);
 }
 
 /* CONTENT-HEADER */
@@ -137,6 +139,7 @@ body {
 }
 
 .add-button {
+    margin-left: 10px;
     --bs-btn-hover-bg: #8acf6b;
 }
 
@@ -162,4 +165,40 @@ body {
 
 .offcanvas-body {
     --bs-offcanvas-padding-y: 0.5rem;
+}
+
+/* CONTENT BODY */
+
+.content-body {
+    padding: 20px 0;
+}
+
+.avatar {
+    width: 34px;
+}
+
+.name-col {
+    width: 55%;
+}
+
+tbody {
+    font-size: 12px;
+}
+
+.content-body .badge {
+    font-size: 12px;
+}
+
+.btn > .edit,
+.btn > .delete {
+    font-size: 12px;
+    padding: 4px 6px;
+}
+
+table td {
+    text-align: center;
+}
+
+table th:not(.name-col) {
+    text-align: center;
 }
