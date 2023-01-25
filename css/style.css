@@ -185,8 +185,9 @@ tbody {
     font-size: 12px;
 }
 
-.content-body .badge {
-    font-size: 12px;
+.content-body .badge,
+.todo-list {
+    font-size: 14px;
 }
 
 .btn > .edit,
